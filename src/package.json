@@ -1,0 +1,29 @@
+{
+  "name": "alexa-skill-quickstart-template",
+  "version": "1.0.0",
+  "description": "Quickstart node.js template to develop your alexa skill.",
+  "engines": {
+    "node": "6.9.4"
+  },
+  "main": "dist/app/index.js",
+  "scripts": {
+    "zip": "bestzip ../dist/bundle.zip ./*",
+    "test": ""
+  },
+  "keywords": [
+    "alexa skill"
+  ],
+  "author": "ox&keen",
+  "contributors": [
+    {
+      "name": "Christian Ochsenkühn"
+    }
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "alexa-sdk": "1.0.25"
+  },
+  "devDependencies": {
+    "bestzip": "1.1.4"
+  }
+}

@@ -1,0 +1,5 @@
+{
+    "skillAppID": "amzn1.ask.skill.[unique-number]",
+    "dynamoDBTableName": "my-db-table-name",
+    "region": "eu-west-1"
+}
